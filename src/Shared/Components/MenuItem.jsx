@@ -4,7 +4,7 @@ const MenuItem = ({ item }) => {
     return (
         <div className="flex gap-8">
             <div>
-                <img className="rounded-full rounded-tl-none w-[118px] h-[86px]" src={image} alt="" />
+                <img className="rounded-full rounded-tl-none object-fill w-[100px] h-[70px]" src={image} alt="" />
             </div>
             <div>
                 <div className="flex justify-between">
