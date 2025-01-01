@@ -27,27 +27,27 @@ const Menu = () => {
 
             <SectionCover title={"Our menu"} img={menuImg}></SectionCover>
             <div className="mt-32"><SectionTitle subTitle="---Don't miss---" title={"TODAY'S OFFER"}></SectionTitle></div>
-            <div className="mb-32"><MenuCategory items={offered}></MenuCategory></div>
+            <div className="mb-32"><MenuCategory title={"offered"} items={offered}></MenuCategory></div>
 
             {/* soup menu section  */}
 
             <div className="mt-32"><SectionCover title={"dessert"} img={dessertImg}></SectionCover></div>
-            <div className="mb-32"><MenuCategory items={dessert}></MenuCategory></div>
+            <div className="mb-32"><MenuCategory title="dessert" items={dessert}></MenuCategory></div>
 
             {/* offerd menu section  */}
 
             <div className="mt-32"><SectionCover title={"pizza"} img={pizzaImg}></SectionCover></div>
-            <div className="mb-32"><MenuCategory items={pizza}></MenuCategory></div>
+            <div className="mb-32"><MenuCategory title={"pizza"} items={pizza}></MenuCategory></div>
 
             {/* offerd menu section  */}
 
             <div className="mt-32"><SectionCover title={"salad"} img={saladImg}></SectionCover></div>
-            <div className="mb-32"><MenuCategory items={salad}></MenuCategory></div>
+            <div className="mb-32"><MenuCategory title={"salad"} items={salad}></MenuCategory></div>
 
             {/* offerd menu section  */}
 
             <div className="mt-32"><SectionCover title={"soup"} img={soupImg}></SectionCover></div>
-            <div className="mb-32"><MenuCategory items={soup}></MenuCategory></div>
+            <div className="mb-32"><MenuCategory title={"soup"} items={soup}></MenuCategory></div>
         </div>
     );
 };
